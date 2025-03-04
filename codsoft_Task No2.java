@@ -1,8 +1,3 @@
-import java.util.Scanner;
-public class task2 {
-    public static void main(String[] args) {
-Scanner sc = new Scanner(System.in);
-
       /*  Input: Take marks obtained (out of 100) in each subject.
                 Calculate Total Marks: Sum up the marks obtained in all subjects.
         Calculate Average Percentage: Divide the total marks by the total number of subjects to get the
@@ -13,6 +8,11 @@ Scanner sc = new Scanner(System.in);
 
         */
 
+
+import java.util.Scanner;
+public class task2 {
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
 int marks;
 float average;
 
