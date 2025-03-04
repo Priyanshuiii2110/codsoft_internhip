@@ -1,10 +1,3 @@
-import java.util.Random;
-import java.util.Scanner;
-
-public class guessgame {
-    public static void main(String[] args) {
-        Random random = new Random();
-        Scanner sc = new Scanner(System.in);
 
        /* 1. Generate a random number within a specified range, such as 1 to 100.
 
@@ -21,6 +14,16 @@ public class guessgame {
         6. Add the option for multiple rounds, allowing the user to play again.
         7. Display the user's score, which can be based on the number of attempts taken or rounds won.
         */
+
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class guessgame {
+    public static void main(String[] args) {
+        Random random = new Random();
+        Scanner sc = new Scanner(System.in);
+
         int attempt = 0;
         int guess;
         int RandomNumber;
